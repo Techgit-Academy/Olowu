@@ -3,6 +3,7 @@ body {
   line-height: 1.0;
   color: hsl(0, 0%, 30%);
   font-weight: 50;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 
 ::-moz-selection {
