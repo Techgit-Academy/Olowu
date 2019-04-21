@@ -1293,3 +1293,47 @@ a {
       background: #2196F3;
       color: white;
     }
+    #anlu{
+      color: #000;
+    }
+ #anlu:hover{
+   color: #2196F3;
+ }
+
+ #dmp{
+  color: #000;
+}
+#dmp:hover{
+color: #2196F3;
+}
+
+#mission{
+  color: #000;
+}
+#mission:hover{
+color: #2196F3;
+}
+
+.ml10 {
+  position: relative;
+  bottom: -10px;
+  font-weight: 900;
+  font-size: 1em;
+  text-align: center;
+  color:rgb(157, 229, 211);
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
