@@ -1346,5 +1346,10 @@ color: #2196F3;
 #address:hover{
 color: #2196F3;
 }
+img{
+  image-rendering: auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 
+}
 
