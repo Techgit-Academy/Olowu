@@ -1,12 +1,12 @@
 /* Base */
 body {
   line-height: 1.0;
-  color: hsl(0, 1%, 17%);
+  color: hsl(0, 0%, 100%);
   font-weight: 50;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(19, 6, 6);
   overflow-x: hidden;
    }
 
