@@ -1,12 +1,13 @@
 /* Base */
 body {
   line-height: 1.0;
-  color: hsl(0, 0%, 100%);
+  color: rgb(255, 255, 255);
   font-weight: 50;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(10, 3, 3);
+  background-color:rgb(12, 5, 5);
+ 
   overflow-x: hidden;
    }
 
@@ -329,7 +330,9 @@ a {
         background-color: #fcfcfc }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
             padding: 9px 10px;
-            display: block; }
+            display: block;
+            background-color: black;
+            color: white; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
               background: #f4f5f9;
               color: #25262a; }
@@ -380,7 +383,8 @@ a {
   .offcanvas-menu .site-mobile-menu {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
-    transform: translateX(0%); }
+    transform: translateX(0%);
+   }
   .site-mobile-menu .site-mobile-menu-header {
     width: 100%;
     float: left;
