@@ -126,7 +126,8 @@ a {
 
 .site-footer {
   padding: 4em 0;
-  background:  black; }
+  background:  black;
+ }
   @media (min-width: 768px) {
     .site-footer {
       padding: 8em 0; } }
@@ -1394,5 +1395,30 @@ color: #2196F3;
 }
 #event:hover{
   color:rgb(78, 22, 22)
+}
+
+
+.row.row-grid [class*="col-"] + [class*="col-"] {
+  margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+  .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+      margin-top: 0;
+  }
+}
+
+.row-grid + .row-grid {
+  margin-top: 15px;
 }
 
