@@ -126,7 +126,7 @@ a {
 
 .site-footer {
   padding: 4em 0;
-  background: rgb(12, 5, 5); }
+  background:  black; }
   @media (min-width: 768px) {
     .site-footer {
       padding: 8em 0; } }
