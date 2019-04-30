@@ -1430,7 +1430,7 @@ background: #f3f3f3;
 }
 #member{
   text-align:center; 
-  color:aqua;
+  color:rgb(164, 247, 247);
 }
 #member:hover{
 text-decoration: underline;
@@ -1458,3 +1458,4 @@ color: #090b0c;
 .letters:hover{
   color:blanchedalmond
 }
+
