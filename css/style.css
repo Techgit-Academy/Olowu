@@ -132,7 +132,9 @@ a {
     .site-footer {
       padding: 8em 0; } }
   .site-footer p {
-    color: #ebebeb; }
+    color: #ebebeb;
+    position: relative;
+    bottom: -91px; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
   .site-footer a {
@@ -1422,3 +1424,37 @@ color: #2196F3;
   margin-top: 15px;
 }
 
+.myDiv{
+background: #f3f3f3;
+
+}
+#member{
+  text-align:center; 
+  color:aqua;
+}
+#member:hover{
+text-decoration: underline;
+color: #090b0c;
+
+}
+#contact{
+  float:right; font-weight: 
+  bold;
+  color:aqua; 
+  font-size:16px
+}
+#contact:hover{
+  text-decoration: underline;
+  color: #090b0c;
+}
+.mac{
+  color: aqua;
+  font-size: 20px;
+}
+.mac:hover{
+  color:blanchedalmond;
+  text-decoration: underline
+}
+.letters:hover{
+  color:blanchedalmond
+}
