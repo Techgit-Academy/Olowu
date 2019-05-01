@@ -1,14 +1,13 @@
 /* Base */
 body {
   line-height: 1.0;
-  color: rgb(114, 111, 111);
+  color: hsl(0, 1%, 17%);
   font-weight: 50;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px;
   padding: 0px;
-  background-color:rgb(12, 5, 5);
- 
   overflow-x: hidden;
+  background-color: rgb(10, 8, 8);
    }
 
 ::-moz-selection {
@@ -126,15 +125,12 @@ a {
 
 .site-footer {
   padding: 4em 0;
-  background:  black;
- }
+  background: #333333; }
   @media (min-width: 768px) {
     .site-footer {
       padding: 8em 0; } }
   .site-footer p {
-    color: #ebebeb;
-    position: relative;
-    bottom: -91px; }
+    color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
   .site-footer a {
@@ -228,9 +224,7 @@ a {
 .site-navbar {
   margin-bottom: 0px;
   z-index: 9;
-  position: fixed;
-  width: 100%;
-   }
+  position: relative; }
   .site-navbar.transparent {
     background: transparent; }
   .site-navbar.absolute {
@@ -260,7 +254,7 @@ a {
         padding: 10px 10px;
         text-transform: uppercase;
         letter-spacing: .1em;
-        color: rgb(255, 255, 255);
+        color: #000;
         font-size: 12px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -333,9 +327,7 @@ a {
         background-color: #fcfcfc }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
             padding: 9px 10px;
-            display: block;
-          background-color: black;
-    color: white; }
+            display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
               background: #f4f5f9;
               color: #25262a; }
@@ -363,7 +355,7 @@ a {
           opacity: 1; }
 
 .site-menu[data-class="social"] a {
-  color: white; }
+  color: #000; }
   .site-menu[data-class="social"] a:hover {
     color: #7971ea; }
 
@@ -373,8 +365,7 @@ a {
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  color: white;
-  background: rgb(8, 6, 6);
+  background: #1b1616;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -387,8 +378,7 @@ a {
   .offcanvas-menu .site-mobile-menu {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
-    transform: translateX(0%);
-   }
+    transform: translateX(0%); }
   .site-mobile-menu .site-mobile-menu-header {
     width: 100%;
     float: left;
@@ -436,7 +426,7 @@ a {
       padding: 10px 20px;
       display: block;
       position: relative;
-      color: #fdfdfd; }
+      color: #ffffff; }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #7971ea; }
     .site-mobile-menu .site-nav-wrap li {
@@ -446,6 +436,7 @@ a {
         color: #7971ea; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
+      color:white;
       right: 0px;
       top: 10px;
       z-index: 20;
@@ -480,8 +471,8 @@ a {
       float: left;
       width: 100%; }
       .site-mobile-menu .site-nav-wrap > li > a {
-        padding-left: 17px;
-    font-size: 12px; }
+        padding-left: 20px;
+        font-size: 15px; }
       .site-mobile-menu .site-nav-wrap > li > ul {
         padding: 0;
         margin: 0;
@@ -490,14 +481,14 @@ a {
           display: block; }
           .site-mobile-menu .site-nav-wrap > li > ul > li > a {
             padding-left: 40px;
-            font-size: 12px; }
+            font-size: 16px; }
           .site-mobile-menu .site-nav-wrap > li > ul > li > ul {
             padding: 0;
             margin: 0; }
             .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li {
               display: block; }
               .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li > a {
-                font-size: 12px;
+                font-size: 16px;
                 padding-left: 60px; }
     .site-mobile-menu .site-nav-wrap[data-class="social"] {
       float: left;
@@ -1430,11 +1421,11 @@ background: #f3f3f3;
 }
 #member{
   text-align:center; 
-  color:rgb(164, 247, 247);
+  color:#090b0c;
 }
 #member:hover{
 text-decoration: underline;
-color: #090b0c;
+color: rgb(164, 247, 247);
 
 }
 #contact{
