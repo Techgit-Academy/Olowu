@@ -132,7 +132,7 @@ a {
   .site-footer p {
     color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
-    color: #fff; }
+    color: rgb(10, 9, 9); }
   .site-footer a {
     color: #999999; }
     .site-footer a:hover {
@@ -1327,7 +1327,7 @@ color: #2196F3;
   font-weight: 900;
   font-size: 1em;
   text-align: center;
-  color:rgb(157, 229, 211);
+  color:rgb(118, 160, 240);
 }
 
 .ml10 .text-wrapper {
@@ -1439,7 +1439,7 @@ color: rgb(164, 247, 247);
   color: #090b0c;
 }
 .mac{
-  color: aqua;
+  color: rgb(118, 160, 240);
   font-size: 20px;
 }
 .mac:hover{
